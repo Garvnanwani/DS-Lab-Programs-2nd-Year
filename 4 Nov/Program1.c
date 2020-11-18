@@ -84,7 +84,7 @@ void insertAt(int idx, int data)
 void print()
 {
 	struct Node *temp = head;
-	printf("Elements in list are:\n");
+	printf("\nElements in list are:\n");
 	if (temp == NULL)
 		printf("List is Empty\n");
 	else
@@ -201,6 +201,7 @@ int main()
 		printf("6.Delete from Index\n");
 		printf("7.Search for Node\n");
 		printf("8.Exit\n");
+		printf("Enter your choice : \n");
 		scanf("%d", &choice);
 		switch (choice)
 		{
